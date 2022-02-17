@@ -123,6 +123,10 @@ html{
     font-size: 125%;
     cursor: pointer;
     padding-right: 1rem;
+    text-decoration: none;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: white;
 }
 
 .p1:hover {
