@@ -12,6 +12,7 @@ html{
 }
 
 .navBar {
+    height: auto;
     position: fixed;
     top: 0;
     right: 0;
@@ -56,4 +57,9 @@ html{
 .p1:hover {
     color: #eed369;
     transition: 0.2s;
+}
+
+.contactBar {
+    background-color: #083045;
+    width: 20%;
 }
