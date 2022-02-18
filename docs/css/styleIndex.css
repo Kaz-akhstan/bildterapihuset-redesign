@@ -1,0 +1,190 @@
+html, body {
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overscroll-behavior: none;
+}
+
+html{
+    background-color: #083045;
+}
+/*Bakgrunds bilder*/
+.parallax {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/colours.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.parallax2 {
+    width: 100%;
+    height: 50%;
+    background-image: url('../img/brushes.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.parallax3 {
+    width: 100%;
+    height: 50%;
+    background-image: url('../img/workspace.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.parallax4 {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/brushes2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.backgroundClass {
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(70%) blur(3px);
+}
+
+.navBar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: #083045;
+    color: white;
+    opacity: 95%;
+    z-index: 1000;
+}
+
+.navField {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    margin-left: 50%;
+}
+
+.logo:hover {
+    cursor: pointer;
+    opacity: .75;
+}
+
+.greeting {
+    font-weight: 900;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 175%;
+    
+    color: #eed369;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+
+    text-align: center;
+    padding-top: 17%;
+}
+
+.greetingSubtext {
+    font-weight: 900;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 125%;
+    
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+
+    text-align: center;
+    padding-top: 1%;
+}
+
+.p1 {
+    font-weight: 900;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 125%;
+    cursor: pointer;
+    padding-right: 2rem;
+    text-decoration: none;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: white;
+}
+
+.p1:hover {
+    color: #eed369;
+    transition: 0.2s;
+}
+
+.p2 {
+    width: 100%;
+    font-weight: 900;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 175%;
+    color: #eed369;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.p3 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 125%;
+    color: white;
+    line-height: 150%;
+    font-weight: 400;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+@media (max-width: 480px) {
+
+}
+
+@media (min-width: 481px) and (max-width: 766px){
+
+}
+
+@media (min-width: 767px) and (max-width: 1279px)
+{
+
+}
+
+@media (min-width: 1280px) and (max-width: 2559px) {
+
+}
+
+@media (min-width: 2560px) {
+    .p2 {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .p3 {
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+.greetPage1 {
+    display: inline;
+    background-color: #083045;
+}
+
+.img {
+    max-width: 100%;
+    width: 100%;
+}
