@@ -12,7 +12,7 @@ html{
 }
 
 .navBar {
-    height: auto;
+    height: 7%;
     position: fixed;
     top: 0;
     right: 0;
@@ -24,7 +24,7 @@ html{
     
     background-color: #083045;
     color: white;
-    opacity: 95%;
+    opacity: 85%;
     z-index: 1000;
 }
 
@@ -62,4 +62,29 @@ html{
 .contactBar {
     background-color: #083045;
     width: 20%;
+    position: fixed;
+    bottom: 0;
+    left: -18%;
+    height: 93%;
+    transition: 0.4s;
+}
+
+.contactBar:hover {
+    left: 0;
+    transition: 0.4s;
+}
+
+.backgroundClass {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-image: url('../img/brush.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.backgroundFilterClass {
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(70%) blur(3px);
 }

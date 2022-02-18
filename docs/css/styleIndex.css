@@ -58,7 +58,7 @@ html{
 }
 
 .navBar {
-    height: auto;
+    height: 7%;
     position: fixed;
     top: 0;
     right: 0;
@@ -70,7 +70,7 @@ html{
     
     background-color: #083045;
     color: white;
-    opacity: 95%;
+    opacity: 85%;
     z-index: 1000;
 }
 
