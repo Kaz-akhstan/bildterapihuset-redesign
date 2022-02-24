@@ -1,7 +1,6 @@
 html, body {
     padding: 0%;
     margin: 0%;
-    display: flex;
     width: 100%;
     height: 100%;
     overscroll-behavior: none;
@@ -59,21 +58,6 @@ html{
     transition: 0.2s;
 }
 
-.contactBar {
-    background-color: #083045;
-    width: 20%;
-    position: fixed;
-    bottom: 0;
-    left: -18%;
-    height: 93%;
-    transition: 0.4s;
-}
-
-.contactBar:hover {
-    left: 0;
-    transition: 0.4s;
-}
-
 .backgroundClass {
     width: 100%;
     height: 100%;
@@ -87,4 +71,87 @@ html{
     width: 100%;
     height: 100%;
     backdrop-filter: brightness(70%) blur(3px);
+}
+
+::-webkit-scrollbar {
+    width: auto;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #062738;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #0c4766;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #0b3b55;
+}
+
+.contactBar {
+    background-color: #083045;
+    width: 20%;
+    position: fixed;
+    bottom: 0;
+    left: -18%;
+    height: 93%;
+    transition: 0.4s;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+    z-index: 1000;
+}
+
+.contactBar:hover {
+    left: 0;
+    transition: 0.4s;
+}
+
+.contactContainer {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    display: flex;
+    cursor: pointer;
+}
+
+.contactPicture {
+    width: 25%;
+    height: 25%;
+    border-radius: 25%;
+}
+
+.contactName {
+    font-weight: 900;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 125%;
+    color: white;
+    margin-left: 10%;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.contactName:hover {
+    color: #eed369;
+    transition: .2s;
+}
+
+.profileContainer {
+    display: flex;
+    width: 80%;
+    height: 93%;
+    background-color: #083045f1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    padding-left: 20%;
+}
+
+.profilePicture {
+    margin-top: 2.5%;
 }
