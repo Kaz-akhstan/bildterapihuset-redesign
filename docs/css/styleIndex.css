@@ -5,6 +5,7 @@ html, body {
     width: 100%;
     height: 100%;
     overscroll-behavior: none;
+    scroll-behavior: smooth;
 }
 
 html{
@@ -43,7 +44,7 @@ html{
 
 .parallax4 {
     width: 100%;
-    height: 100%;
+    height: 50%;
     background-image: url('../img/brushes2.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -55,6 +56,35 @@ html{
     width: 100%;
     height: 100%;
     backdrop-filter: brightness(70%) blur(2px);
+}
+
+.knappStil {
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 40%;
+
+    font-weight: 900;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 150%;
+    
+    color: #eed369;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+
+    text-align: center;
+    border: 2px solid #eed369;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: .25s;
+}
+
+.knappStil:hover {
+    cursor: pointer;
+    background: #0c4766;
+    transition: .25s;
+    border-radius: 25%;
 }
 
 .navBar {
@@ -128,6 +158,31 @@ html{
     padding-top: 1%;
 }
 
+.greetingBoka {
+    font-weight: 900;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 150%;
+    
+    color: #eed369;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+
+    text-align: center;
+    margin-top: 2%;
+    border: 2px solid #eed369;
+    width: 10%;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: .25s;
+}
+
+.greetingBoka:hover {
+    cursor: pointer;
+    background: #0c4766;
+    transition: .25s;
+    border-radius: 25%;
+}
+
 .p1 {
     font-weight: 900;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -146,6 +201,7 @@ html{
 }
 
 .p2 {
+    line-height: 150%;
     width: 100%;
     font-weight: 900;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

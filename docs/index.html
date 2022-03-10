@@ -13,19 +13,20 @@
             <img src="img/placeholder.svg" alt="" width="50" height="50" class="logo">
         </a>
         <div class="navField">
-            <a href="bokaNy.html" class="p1">Boka Tid</a>
+            <a href="#bokaTid" class="p1">Boka Tid</a>
             <!---<a href="" class="p1">Aktuellt</a>--->
-            <a href="" class="p1">Våra Terapeuter</a>
-            <a href="" class="p1">Kontakt</a>
-            <a href="" class="p1">Om oss</a>
+            <a href="#våraTer" class="p1">Våra Terapeuter</a>
+            <a href="#kontakt" class="p1">Kontakt</a>
+            <a href="#omOss" class="p1">Om oss</a>
         </div>
     </div>
-    <div class="parallax">
+    <div class="parallax" id="bokaTid">
         <div class="backgroundClass">
             <div class="greeting">Välkommen till Bildterapihuset Umeå</div>
             <div class="greetingSubtext">Brogatan 5, 903 21</div>
+            <div class="greetingBoka" onclick="bokaTidFunc()">BOKA TID HÄR</div>
         </div>
-        <div class="greetPage1">
+        <div class="greetPage1" id="våraTer">
             <p class="p2">Upptäck ditt bildspråk</p>
             <p class="p3">
                 Här får du möjlighet att prova på att arbeta med bild som kommunikation. Med några enkla bildövningar kan du upptäcka ditt eget personliga bildspråk. Du får sedan möjlighet att dela dina reflexioner med gruppen under min ledning. Att ha målat förut är inget krav!
@@ -34,21 +35,30 @@
             </p>
         </div>
         <div class="parallax2">
-            <div class="backgroundClass"></div>
+            <div class="backgroundClass">
+                <div class="knappStil" onclick="teraFunc()">VÅRA TERAPEUTER</div>
+            </div>
         </div>
-        <div class="greetPage1">
+        <div class="greetPage1" id="kontakt">
             <p class="p2">Att bryta sina mönster, en möjlighet att förändra ett beroende</p>
             <p class="p3">Bildterapihuset drivs av ett nätverk av bildterapeuter. Vi har vår verksamhet i en funktionellt inredd lokal på Brogatan 5. Huset ligger inne på gården, i huset bakom Swefo foto. Vår lokal ligger i källarvåningen och det står Bildterapihuset på dörren. Vi erbjuder bildterapi för individer, familjer och grupper, handledning, kurser och workshops. Klicka på länken ”Vi bildterapeuter” så ser du vilka vi är och hur du får kontakt med oss.</p>
         </div>
         <div class="parallax3">
-            <div class="backgroundClass"></div>
+            <div class="backgroundClass">
+                <div class="knappStil" onclick="kontaktFunc()">KONTAKT</div>
+            </div>
         </div>
-        <div class="greetPage1">
+        <div class="greetPage1" id="omOss">
             <p class="p2">Vad är bildterapi?</p>
             <p class="p3">Bildterapi är en komplementär terapiform som använder bildskapande och samtal för utforskning och bearbetning av tankar, känslor och minnen. Bildterapi kan hjälpa människor att lösa problem, minska stress, stärka självkänslan och komma till insikt.</p>
         </div>
         <div class="parallax4">
-            <div class="backgroundClass"></div>
+            <div class="backgroundClass">
+                <div class="knappStil" onclick="omOssFunc()">OM OSS</div>
+            </div>
+        </div>
+        <div class="greetPage1">
+            <div class="p2">BILDTERAPIHUSET UMEÅ</div>
         </div>
     </div>
     <script src="js/main.js"></script>
