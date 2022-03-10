@@ -26,3 +26,14 @@ window.onload = function()
         select2.appendChild(opt);
     }
 }
+
+function markDate(e)
+{
+    for(var k = 1; k<=31; k++)
+    {
+        document.getElementById(k).style.background = "#0c4766";
+        document.getElementById(k).style.color = "#eed369";
+    }
+    document.getElementById(e).style.background = "#eed369";
+    document.getElementById(e).style.color = "#0c4766";
+}

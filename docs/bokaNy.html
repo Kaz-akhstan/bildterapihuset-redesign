@@ -27,19 +27,63 @@
                     <li class="next">&#10095</li>
                     <li>
                         MARS<br>
-                        <span>2022</span>
+                        <span class="year">2022</span>
                     </li>
                 </ul>
             </div>
-            <ul class="weekdays">
-                <li>Mån</li>
-                <li>Tis</li>
-                <li>Ons</li>
-                <li>Tor</li>
-                <li>Fre</li>
-                <li>Lör</li>
-                <li>Sön</li>
-            </ul>
+            <table class="days">
+                <tr>
+                    <th class="th1">Mån</th>
+                    <th class="th1">Tis</th>
+                    <th class="th1">Ons</th>
+                    <th class="th1">Tor</th>
+                    <th class="th1">Fre</th>
+                    <th class="th1">Lör</th>
+                    <th class="th1">Sön</th>
+                </tr>
+                <tr>
+                    <th onclick="markDate(this.id)" id="1">1</th>
+                    <th onclick="markDate(this.id)" id="2">2</th>
+                    <th onclick="markDate(this.id)" id="3">3</th>
+                    <th onclick="markDate(this.id)" id="4">4</th>
+                    <th onclick="markDate(this.id)" id="5">5</th>
+                    <th onclick="markDate(this.id)" id="6">6</th>
+                    <th onclick="markDate(this.id)" id="7">7</th>
+                </tr>
+                <tr>
+                    <th onclick="markDate(this.id)" id="8">8</th>
+                    <th onclick="markDate(this.id)" id="9">9</th>
+                    <th onclick="markDate(this.id)" id="10">10</th>
+                    <th onclick="markDate(this.id)" id="11">11</th>
+                    <th onclick="markDate(this.id)" id="12">12</th>
+                    <th onclick="markDate(this.id)" id="13">13</th>
+                    <th onclick="markDate(this.id)" id="14">14</th>
+                </tr>
+                <tr>
+                    <th onclick="markDate(this.id)" id="15">15</th>
+                    <th onclick="markDate(this.id)" id="16">16</th>
+                    <th onclick="markDate(this.id)" id="17">17</th>
+                    <th onclick="markDate(this.id)" id="18">18</th>
+                    <th onclick="markDate(this.id)" id="19">19</th>
+                    <th onclick="markDate(this.id)" id="20">20</th>
+                    <th onclick="markDate(this.id)" id="21">21</th>
+                </tr>
+                <tr>
+                    <th onclick="markDate(this.id)" id="22">22</th>
+                    <th onclick="markDate(this.id)" id="23">23</th>
+                    <th onclick="markDate(this.id)" id="24">24</th>
+                    <th onclick="markDate(this.id)" id="25">25</th>
+                    <th onclick="markDate(this.id)" id="26">26</th>
+                    <th onclick="markDate(this.id)" id="27">27</th>
+                    <th onclick="markDate(this.id)" id="28">28</th>
+                </tr>
+                <tr>
+                    <th onclick="markDate(this.id)" id="29">29</th>
+                    <th onclick="markDate(this.id)" id="30">30</th>
+                    <th onclick="markDate(this.id)" id="31">31</th>
+                </tr>
+            </table>
+            <button class=submitButton>Bekräfta</button>
         </div>
     </div>
     <script src="js/tera.js"></script>

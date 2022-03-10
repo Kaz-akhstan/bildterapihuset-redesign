@@ -159,22 +159,91 @@ ul {
     color: #eed369;
 }
 
-span {
+.next:hover {
+    color: #06293b;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.prev:hover {
+    color: #06293b;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.year {
     font-size: 75%; 
     letter-spacing: 0.2rem;
 }
 
-.weekdays {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1% 1%;
-    background: #eed369;
-    width: 75%;
+table {
+    border-collapse: collapse;
 }
 
-.weekdays li {
-    display: inline-block;
-    text-align: center;
+.weekdays {
+    width: 77%;
+    background: #eed369;
+    color: #0c4766;
     margin-right: auto;
     margin-left: auto;
+    text-align: center;
+}
+
+.th1 {
+    background: #eed369;
+    color: #0c4766;
+}
+
+.days {
+    width: 77%;
+    padding: 1% 0;
+    margin-left: auto;
+    margin-right: auto;
+    background: #0c4766;
+}
+
+th {
+    padding: 2% 1%;
+    color: #eed369;
+    font-weight: 900;
+    font-size: 110%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+th:hover {
+    background: #eed369;
+    color: #0c4766;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.submitButton {
+    width: 10%;
+    height: auto;
+    float: right;
+    margin-right: 11.5%;
+    margin-top: 2%;
+    background: transparent;
+    color: #eed369;
+    font-weight: 900;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 300%;
+    border: 2px solid #eed369;
+}
+
+.submitButton:hover {
+    transition: .25s;
+    color: #eed369;
+    background: #0c4766;
+    cursor: pointer;
+    border-radius: 25%;
+}
+
+.activated {
+    background: #eed369;
+    color: #0c4766;
 }
