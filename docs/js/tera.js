@@ -6,6 +6,10 @@ let terapeuter = ["Anna Karin Karlsson",
 
 let terapi = ["Individuell Terapi", "Grupp Terapi", "Workshop"]
 
+let months = ["JANUARI", "FEBRUARI", "MARS", 
+"APRIL", "MAJ", "JUNI", "JULI", "AUGUSTI", 
+"SEPTEMBER", "OKTOBER", "NOVEMBER", "DECEMBER"]
+
 var select1 = document.getElementById('selectTera');
 var select2 = document.getElementById('selectTerapi');
 
@@ -36,4 +40,31 @@ function markDate(e)
     }
     document.getElementById(e).style.background = "#eed369";
     document.getElementById(e).style.color = "#0c4766";
+}
+
+var monthInt = 2;
+var yearInt = 2022;
+
+function monthPlus()
+{
+    monthInt++;
+    if(monthInt > 11)
+    {
+        monthInt = 0;
+        yearInt++;
+    }
+    document.getElementById('monthLabel').innerHTML = months[monthInt];
+    document.getElementById('yearLabel').innerHTML = yearInt;
+}
+
+function monthMinus()
+{
+    monthInt--;
+    if(monthInt < 0)
+    {
+        monthInt = 11;
+        yearInt--;
+    }
+    document.getElementById('monthLabel').innerHTML = months[monthInt];
+    document.getElementById('yearLabel').innerHTML = yearInt;
 }

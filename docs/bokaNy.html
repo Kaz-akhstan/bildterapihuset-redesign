@@ -23,11 +23,13 @@
             </div>
             <div class="month">
                 <ul>
-                    <li class="prev">&#10094</li>
-                    <li class="next">&#10095</li>
-                    <li>
+                    <li class="prev" onclick="monthMinus()">&#10094</li>
+                    <li class="next" onclick="monthPlus()">&#10095</li>
+                    <li id="monthLabel">
                         MARS<br>
-                        <span class="year">2022</span>
+                    </li>
+                    <li>
+                        <span class="year" id="yearLabel">2022</span>
                     </li>
                 </ul>
             </div>
@@ -83,7 +85,7 @@
                     <th onclick="markDate(this.id)" id="31">31</th>
                 </tr>
             </table>
-            <button class=submitButton>Bekräfta</button>
+            <button class=submitButton onclick="window.location.href = 'klarBokad.html';">Bekräfta</button>
         </div>
     </div>
     <script src="js/tera.js"></script>
