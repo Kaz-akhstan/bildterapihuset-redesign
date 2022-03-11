@@ -59,7 +59,7 @@ html{
 }
 
 .knappStil {
-    width: 10%;
+    width: fit-content;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -74,7 +74,7 @@ html{
 
     text-align: center;
     border: 2px solid #eed369;
-    padding: 1%;
+    padding: 1% 1%;
     margin-left: auto;
     margin-right: auto;
     transition: .25s;
@@ -84,7 +84,7 @@ html{
     cursor: pointer;
     background: #0c4766;
     transition: .25s;
-    border-radius: 25%;
+    border-radius: 25px;
 }
 
 .navBar {
@@ -106,6 +106,7 @@ html{
 
 .navField {
     display: flex;
+    
 }
 
 .logo {
@@ -169,8 +170,8 @@ html{
     text-align: center;
     margin-top: 2%;
     border: 2px solid #eed369;
-    width: 10%;
-    padding: 1%;
+    width: fit-content;
+    padding: 1% 1%;
     margin-left: auto;
     margin-right: auto;
     transition: .25s;
@@ -180,7 +181,7 @@ html{
     cursor: pointer;
     background: #0c4766;
     transition: .25s;
-    border-radius: 25%;
+    border-radius: 25px;
 }
 
 .p1 {
@@ -217,21 +218,46 @@ html{
     color: white;
     line-height: 150%;
     font-weight: 400;
-    margin-right: 15%;
-    margin-left: 15%;
+    padding: 0 15%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hamburgerMenu {
+    display: none;
+    float: right;
+    margin-right: 40%;
 }
 
 @media (max-width: 480px) {
+    .p2 {
+        font-size: 90%;
+    }
 
+    .p3 {
+        font-size: 90%;
+        padding: 0 5%;
+    }
+    .navField {
+        display: none;
+    }
+    .hamburgerMenu {
+        display: block;
+    }
 }
 
-@media (min-width: 481px) and (max-width: 766px){
-
+@media (min-width: 481px) and (max-width: 768px){
+    .navField {
+        display: none;
+    }
+    .hamburgerMenu {
+        display: block;
+    }
 }
 
-@media (min-width: 767px) and (max-width: 1279px)
+@media (min-width: 769px) and (max-width: 1279px)
 {
-
+    
 }
 
 @media (min-width: 1280px) and (max-width: 2559px) {
