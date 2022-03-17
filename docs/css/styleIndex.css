@@ -244,6 +244,9 @@ html{
     .hamburgerMenu {
         display: block;
     }
+    .greetingBoka {
+        margin-top: 50%;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 768px){
@@ -253,18 +256,12 @@ html{
     .hamburgerMenu {
         display: block;
     }
+    .greetingBoka {
+        margin-top: 50%;
+    }
 }
 
-@media (min-width: 769px) and (max-width: 1279px)
-{
-    
-}
-
-@media (min-width: 1280px) and (max-width: 2559px) {
-
-}
-
-@media (min-width: 2560px) {
+@media (min-width: 2000px) {
     .p2 {
         width: 100%;
         margin-right: auto;
