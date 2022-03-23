@@ -20,10 +20,11 @@ function omOssFunc()
     window.location.href = "omOss.html";
 }
 
-function highlightAnim()
+function highlightAnim(e)
 {
-    document.getElementById("greetingBokaID").style.boxShadow = "0px 0px 40px 10px white";
+    const newID = "s" + e;
+    document.getElementById(newID).style.boxShadow = "0px 0px 40px 10px white";
     setTimeout(function(){
-        document.getElementById("greetingBokaID").style.boxShadow = "none";
+        document.getElementById(newID).style.boxShadow = "none";
     }, 2000);
 }

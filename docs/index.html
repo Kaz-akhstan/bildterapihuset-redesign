@@ -17,17 +17,17 @@
             
         </a>
         <div class="navField">
-            <a href="#bokaTid" onclick="highlightAnim()" class="p1">Boka Tid</a>
-            <a href="#våraTer" class="p1">Våra Terapeuter</a>
-            <a href="#kontakt" class="p1">Kontakt</a>
-            <a href="#omOss" class="p1">Om oss</a>
+            <a href="#bokaTid" id="1" onclick="highlightAnim(this.id)" class="p1">Boka Tid</a>
+            <a href="#våraTer" id="2" onclick="highlightAnim(this.id)" class="p1">Våra Terapeuter</a>
+            <a href="#kontakt" id="3" onclick="highlightAnim(this.id)" class="p1">Kontakt</a>
+            <a href="#omOss" id="4" onclick="highlightAnim(this.id)" class="p1">Om oss</a>
         </div>
     </div>
     <div class="parallax" id="bokaTid">
         <div class="backgroundClass">
             <div class="greeting">Välkommen till Bildterapihuset Umeå</div>
             <div class="greetingSubtext">Brogatan 5, 903 21</div>
-            <div class="greetingBoka" id="greetingBokaID" onclick="bokaTidFunc()">BOKA TID HÄR</div>
+            <div class="greetingBoka" id="s1" onclick="bokaTidFunc()">BOKA TID HÄR</div>
         </div>
         <div class="greetPage1" id="våraTer">
             <p class="p2">Upptäck ditt bildspråk</p>
@@ -38,7 +38,7 @@
         </div>
         <div class="parallax2">
             <div class="backgroundClass">
-                <div class="knappStil" onclick="teraFunc()">VÅRA TERAPEUTER</div>
+                <div class="knappStil" id="s2" onclick="teraFunc()">VÅRA TERAPEUTER</div>
             </div>
         </div>
         <div class="greetPage1" id="kontakt">
@@ -47,7 +47,7 @@
         </div>
         <div class="parallax3">
             <div class="backgroundClass">
-                <div class="knappStil" onclick="kontaktFunc()">KONTAKT</div>
+                <div class="knappStil" id="s3" onclick="kontaktFunc()">KONTAKT</div>
             </div>
         </div>
         <div class="greetPage1" id="omOss">
@@ -56,7 +56,7 @@
         </div>
         <div class="parallax4">
             <div class="backgroundClass">
-                <div class="knappStil" onclick="omOssFunc()">OM OSS</div>
+                <div class="knappStil" id="s4" onclick="omOssFunc()">OM OSS</div>
             </div>
         </div>
         <div class="greetPage1">
