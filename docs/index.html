@@ -17,7 +17,7 @@
             
         </a>
         <div class="navField">
-            <a href="#bokaTid" class="p1">Boka Tid</a>
+            <a href="#bokaTid" onclick="highlightAnim()" class="p1">Boka Tid</a>
             <a href="#våraTer" class="p1">Våra Terapeuter</a>
             <a href="#kontakt" class="p1">Kontakt</a>
             <a href="#omOss" class="p1">Om oss</a>
@@ -27,7 +27,7 @@
         <div class="backgroundClass">
             <div class="greeting">Välkommen till Bildterapihuset Umeå</div>
             <div class="greetingSubtext">Brogatan 5, 903 21</div>
-            <div class="greetingBoka" onclick="bokaTidFunc()">BOKA TID HÄR</div>
+            <div class="greetingBoka" id="greetingBokaID" onclick="bokaTidFunc()">BOKA TID HÄR</div>
         </div>
         <div class="greetPage1" id="våraTer">
             <p class="p2">Upptäck ditt bildspråk</p>
